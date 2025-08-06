@@ -104,10 +104,10 @@ CryptoPlus/
 🌐 Connect With Me:
 💼 Portfolio: shivamseamar.github.io
 
-🐙 # [GitHub:](https://github.com/ShivamSeamar)
+🐙  [GitHub:](https://github.com/ShivamSeamar)
 
-🔗 # [LinkedIn:](https://linkedin.com/in/shivamseamar25)
+🔗  [LinkedIn:](https://linkedin.com/in/shivamseamar25)
 
-📷 # [Instagram:](https://instagram.com/shivamseamar@25)
+📷  [Instagram:](https://instagram.com/shivamseamar25)
 
 ## Thank You For Visiting 
