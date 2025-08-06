@@ -1,0 +1,133 @@
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background: #23283a;
+  color: #f3f3f3;
+  font-family: 'Inter', sans-serif;
+  padding: 2rem 0;
+}
+
+.mainContent {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2vw;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+
+.card {
+  background: #181c25;
+  border-radius: 18px;
+  padding: 1.5rem 1.5rem 1.25rem 1.5rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.15s, box-shadow 0.15s, background 0.15s;
+  cursor: pointer;
+  border: 1.5px solid transparent;
+}
+.card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(0,225,192,0.10);
+  background: #20243a;
+  border: 1.5px solid #00e1c0;
+}
+
+.cardTitle {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #00e1c0;
+}
+
+.searchBar {
+  padding: 0.9rem 1.2rem;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  background: #181c25;
+  color: #f3f3f3;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.searchResults {
+  background: #23283a;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.searchResultItem {
+  padding: 0.9rem 1.2rem;
+  cursor: pointer;
+  border-bottom: 1px solid #2e3448;
+  transition: background 0.15s;
+}
+.searchResultItem:last-child {
+  border-bottom: none;
+}
+.searchResultItem:hover {
+  background: #181c25;
+}
+
+.volatility {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #00e1c0;
+  margin-top: 0.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #f3f3f3;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #00e1c0;
+}
+
+@media (max-width: 900px) {
+  .mainContent {
+    padding: 0 1vw;
+  }
+  .cards {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .mainContent {
+    padding: 0 0.5vw;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+  }
+  .card {
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+} 
